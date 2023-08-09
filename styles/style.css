@@ -1,0 +1,198 @@
+*{
+    background-color: rgb(12, 11, 12);
+    /* margin-left: 20px; */
+    margin: 0px;
+}
+
+.add_book{
+    background-color: rgb(58, 28, 86);
+    color: white;
+    font-size: 100px;
+    padding: 70px 20px;
+    margin-top: 50px;
+    border: none;
+
+}
+
+.add_book:hover{
+    background-color: rgb(241, 96, 159);
+    transform: translate(5px, 5px);
+}
+
+.form-container{
+    display: none;
+    position:fixed;
+    top: 100px;
+    right: 500px;
+    left: 400px;
+    /* width: 500px;
+    height: 500px; */
+    background-color: rgb(88, 86, 86);
+    padding: 30px 20px;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+
+.add-book-form{
+    
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow:  0px 0px 40px 15px #b2a0dc;
+
+    /* display: none; */
+
+}
+
+.add-book-form .row{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: white;
+    padding: 10px 0px;
+    /* display: none; */
+
+}
+
+input{
+    background-color: white;
+    height: 20px;
+    padding: 2px 3px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+.form-submit{
+    background-color: #b2a0dc;
+    height: 30px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.content-area{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    min-width: 0;
+}
+
+.card-content{
+    color: white;
+    /* padding: 150px 120px; */
+    margin-top: 50px;
+    background-color: rgb(58, 28, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 24px;  
+    gap: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+    min-width: 0;
+    padding: 20px 10px;
+    
+
+
+}
+
+.card-content > div{
+    background-color: rgb(58, 28, 86);
+    font-size: 24px;
+    
+}
+
+.card-content > checkbox{
+    background-color: rgb(58, 28, 86);
+    font-size: 24px;
+    /* padding: 20px 30px; */
+    width:70%;
+
+    align-self: center;
+
+
+    
+}
+
+.card-content > checkbox > button{
+    /* background-color: rgb(58, 28, 86); */
+    font-size: 24px;
+    padding: 10px 20px;
+    align-self: center;
+    border: 2px solid black;
+    /* color: white; */
+    border-radius: 20px;
+    width: 100%;
+    
+    
+    
+}
+
+.card-content:hover{
+    background-color: rgb(241, 96, 159);
+    transform: translate(5px, 5px);
+}
+
+.card-content:hover > div{
+    /* background-color: rgb(58, 28, 86); */
+    background-color: rgb(241, 96, 159);
+    color: black;
+    /* transform: translate(5px, 5px); */
+    
+}
+
+.card-content:hover > checkbox{
+    /* background-color: rgb(58, 28, 86); */
+    background-color: rgb(241, 96, 159);
+    color: black;
+    /* transform: translate(5px, 5px); */
+    
+}
+
+
+.header{
+    display: block;
+    background-color: rgb(230, 215, 234);
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    background-color: rgb(230, 215, 234);
+
+    
+}
+
+.libtxt{
+    color: rgb(58, 28, 86);
+}
+.pertext{
+    color: rgb(241, 96, 159);
+    /* color: rgb(255, 185, 185); */
+
+
+}
+
+.delete-book{
+    background-color: rgb(240, 212, 235);
+    border: none;
+
+    padding: 20px 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    width: 80%;
+
+    align-self: center;
+}
